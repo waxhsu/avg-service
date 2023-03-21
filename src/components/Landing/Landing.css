@@ -1,0 +1,32 @@
+.Landing {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+}
+
+.leftLanding {
+  max-width: 60%;
+  border: red 2px solid;
+}
+
+.infoBox {
+  min-height: 5vh;
+  font-size: 50px;
+  padding: 150px 0 0 0;
+}
+
+.buttonBox {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.rightLanding {
+  max-width: 40%;
+  border: blue 2px solid;
+}
+
+.rightLanding > img {
+  border: green 2px solid;
+}
