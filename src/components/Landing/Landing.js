@@ -1,6 +1,7 @@
 import './Landing.css';
 // import Slider from 'react-animated-slider';
 // import 'react-animated-slider/build/horizontal.css';
+import landingPic from '../../img/landingPlaceholder.jpg';
 
 function Landing(){
   return (
@@ -13,7 +14,7 @@ function Landing(){
         </div>
       </div>
       <div className='rightLanding'>
-        <img alt='stoicThumbsUp' />
+        <img src={landingPic} alt='stoicThumbsUp' />
       </div>
     </div>
   )

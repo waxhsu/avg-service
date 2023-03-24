@@ -1,10 +1,11 @@
 
 
 
-.Navbar{
+.Navbar {
   z-index: 1;
   display: flex;
-  justify-content: space-between;
+  position: sticky;
+  justify-content: space-around;
   background-color: rgb(231, 228, 228);
   top: 0;
 }
@@ -14,18 +15,8 @@
   justify-content: space-between;
   width: 40%;
   /* padding: 0 5% 0 5%; */
-}
-
-.logo {
-  border: solid 2px blue;
-}
-
-.rightSide {
-  border: solid 2px red;
-}
-
-.button {
-  border: solid 2px goldenrod;
+  border: solid 2px green;
+  align-items: center;
 }
 
 .Navbar-options {
@@ -33,7 +24,23 @@
   font-weight: 300;
   display: flex;
   font-size: calc(2px + 2vmin);
-  /* border: solid 2px red; */
+  border: solid 2px blue;
+}
+
+.logo {
+  border: solid 2px blue;
+  max-width: 5%;
+  margin: 0.5%;
+}
+
+.rightSide {
+  border: solid 2px red;
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  border: solid 2px goldenrod;
 }
 
 a:link{
