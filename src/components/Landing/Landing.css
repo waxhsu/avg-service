@@ -5,7 +5,7 @@
 }
 
 .leftLanding {
-  max-width: 60%;
+  max-width: 100%;
   border: red 2px solid;
 }
 
@@ -23,7 +23,7 @@
 
 
 .rightLanding {
-  max-width: 40%;
+  max-width: 50%;
   border: blue 2px solid;
 }
 
