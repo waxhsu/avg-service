@@ -1,3 +1,5 @@
+import servicePlaceholder from './img/servicePlaceholder.jpg';
+
 export const TITLES = [
   {
       name: 'Web developer',
@@ -14,20 +16,23 @@ export const TITLES = [
 ];
 
 
-export const PROJECTS = [
+export const SERVICE = [
   {
-    name: `Ugly Hands Club`,
-    src: projects_placeholder,
-    desc: `Webstore specialized in climbing themed apparels`,
+    name: `SERVICE1`,
+    src: servicePlaceholder,
+    desc: `we do this good, but more so on average`,
+    link: `www.google.com`,
   },
   {
-    name: `Average Service Provider Service`,
-    src: projects_placeholder,
-    desc: `A dry humor website because haha lol`,
+    name: `SERVICE2`,
+    src: servicePlaceholder,
+    desc: `it's okay i guess`,
+    link: `www.google.com`,
   },
   {
-    name: `Pokémon silhouette guesser API`,
-    src: projects_placeholder,
-    desc: `A simple quiz game to test your knowledge using the Pokémon API`,
+    name: `SERVICE3`,
+    src: servicePlaceholder,
+    desc: `acceptable job i think`,
+    link: `www.google.com`,
   },
 ]
