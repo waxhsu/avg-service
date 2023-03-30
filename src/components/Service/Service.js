@@ -5,7 +5,8 @@ function Service() {
     return (
         <div className="Service">
             <div class="header">
-                <h1>Our Services</h1>
+                <h1>Services that you can expect</h1>
+                <h4>it's aight</h4>
             </div>
         
             <div className="serviceGrid">
@@ -16,10 +17,10 @@ function Service() {
                             <div className='languageText'>
 
                         <div className='serviceBox'>
-                        <a href={service.link} target='_blank' rel='noopener noreferrer'>
+                        
                             <img className='contentImage' src={service.src} alt='' />
                             <p>{service.desc}</p>
-                        </a>
+                        
                         <a href={service.link}> learn more </a>
                         </div>
                         </div>

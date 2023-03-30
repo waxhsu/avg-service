@@ -1,14 +1,10 @@
 .Service{
-  min-height: 90vh;
-  padding-bottom: 10vh;
-  padding-left: 20%;
-  padding-right: 20%;
   border: 4px red solid;
+  min-height: 50vh;
+  padding-bottom: 10vh;
+  padding-left: 10%;
+  padding-right: 10%;
   }
-
-.header > h1 {
-  display: flex;
-}
 
 .serviceGrid {
   display: flex;
@@ -17,7 +13,9 @@
 }
 
 h3 {
+  border: 1px red solid;
   font-size: x-large;
+  min-height: 10vh;
 }
 
 .languageText {
@@ -25,10 +23,10 @@ h3 {
 }
 
 .serviceContainer{
+  border: 1px blue solid;
   position: relative;
   width: 45%;
   max-width: 70%;
-  border: 1px blue solid;
   padding: 0 1vh 5vh 1vh;
   margin-bottom: 1vh;
 
@@ -37,35 +35,13 @@ h3 {
 
 /* add class for frontend and backend logos */
 
-
-.languageText {
-  display: flex;
-  justify-content: space-around;
-}
-
-
 .serviceBox {
+  border: 1px green solid;
   position: relative;
   display: block;
   margin: auto;
   overflow: hidden;
-  border: 1px green solid;
 }
-
-/* .serviceBox .contentOverlay {
-  background: rgba(236, 236, 236, 0.9);
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  opacity: 0;
-  -webkit-transition: all 0.4s ease-in-out 0s;
-  -moz-transition: all 0.4s ease-in-out 0s;
-  transition: all 0.4s ease-in-out 0s;
-} */
 
 .serviceBox:hover .contentOverlay {
   opacity: 1;

@@ -1,0 +1,56 @@
+.Testimonies{
+  border: 4px red solid;
+  min-height: 40vh;
+  padding-bottom: 10vh;
+  padding-left: 10%;
+  padding-right: 10%;
+  }
+
+.testimoniesGrid {
+  border: 2px green solid;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  /* filter: brightness(50%); */
+}
+
+.testimoniesContainer{
+  border: 1px blue solid;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 100%;
+  padding: 0 1vh 5vh 1vh;
+  margin-bottom: 1vh;
+}
+
+.userInfo {
+  display: flex;
+  margin-top: 2%;
+}
+
+.userDataBox{
+  border: 1px goldenrod solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.userData {
+  font-size: 25px;
+}
+
+.userImage {
+  display: block;
+  max-width: 15%;
+  max-height: 15%;
+  border-radius: 50%;
+  margin: 0.5%;
+  margin-right: 2%;
+}
+
+.testimoniesDesc {
+  border: 2px red solid;
+  margin-top: 2%;
+  padding-left: 1%;
+}
