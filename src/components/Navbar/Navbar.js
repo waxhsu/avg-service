@@ -1,5 +1,6 @@
 import './Navbar.css';
 import logo from '../../img/logo.png';
+import animateScrollTo from 'animated-scroll-to';
 
 function Navbar(){
   return (
@@ -8,22 +9,26 @@ function Navbar(){
       
       <div className='mainOptions'>
         <div>
-            <a className="Navbar-options" href="" target="_blank">Services</a>
+          {/* <div onClick={() => window.location.replace("#service")}> */}
+            <a className="Navbar-options" href="#service">Services</a>
+          {/* </div> */}
+        </div>
+        
+        <div>
+            <a className="Navbar-options" href="#testimonies">Testimonies</a>
         </div>
         <div>
-            <a className="Navbar-options" href="" target="_blank">Testimonies</a>
+            
+            <a className="Navbar-options" href="animateScrollTo(document.querySelector('.my-element'));">Company</a>
         </div>
         <div>
-            <a className="Navbar-options" href="" target="_blank">Company</a>
-        </div>
-        <div>
-            <a className="Navbar-options" href="" target="_blank">Contact</a>
+            <a className="Navbar-options" href="">Contact</a>
         </div>
       </div>
 
       <div className='rightSide'>
-          <a id='login' className='button' href="" target="_blank">Login</a>
-          <a id='signUp' className='button' href="" target="_blank">Get started</a>
+          <a id='login' className='button' href="">Login</a>
+          <a id='signUp' className='button' href="">Get started</a>
       </div>
     </div>
 

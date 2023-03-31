@@ -3,11 +3,12 @@ import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
 import {CONTENT} from '../../const.js';
 import landingPic1 from '../../img/landingPlaceholder1.jpg';
+import landingPic2 from '../../img/landingPlaceholder2.jpg';
 
 
 function Landing(){
   return (
-    <div className="Landing">
+    <div id='landing' className="Landing">
       <div className='leftLanding'>
         <div className='infoBox'>Interesting intro and information about this service providing company</div>
         <div className='buttonBox'>
@@ -18,7 +19,7 @@ function Landing(){
 
       <div className='rightLanding'>
 
-        <img src={landingPic1} />
+        <img src={landingPic2} />
 
 
       {/* <Slider

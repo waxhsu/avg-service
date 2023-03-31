@@ -3,7 +3,7 @@ import { TESTIMONIES } from '../../const.js';
 
 function Testimonies() {
     return (
-        <div className="Testimonies">
+        <div id='testimonies' className="Testimonies">
             <div class="header">
                 <h1>What our customers say about AVRG</h1>
                 <h4>AVRG provides a level of support sometimes</h4>

@@ -123,7 +123,7 @@ export const FOOTER_company = [
   },
   {
     name: `Why [company]`,
-    link: '#',
+    link: '#service',
   },
   {
     name: `Contact Us`,
@@ -131,9 +131,15 @@ export const FOOTER_company = [
   },
   {
     name: `Testimonials`,
-    link: '#',
+    link: '#testimonies',
   },
 ]
+
+
+// <a href={`#${child.get('label')}`}>{child.get('label')}</a>
+// automated backlinking??
+// https://stackoverflow.com/questions/46180291/click-link-to-scroll-to-specific-section-react-js
+
 
 export const FOOTER_account = [
   {
