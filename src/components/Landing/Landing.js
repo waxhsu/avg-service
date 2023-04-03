@@ -21,8 +21,8 @@ function Landing(){
 
         <img src={landingPic2} />
 
-
-      {/* <Slider
+{/* 
+      <Slider
         className='slider'
         autoplay={2000}
         previousButton={null}

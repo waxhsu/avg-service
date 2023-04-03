@@ -13,13 +13,13 @@ function Navbar(){
             <a className="Navbar-options" href="#service">Services</a>
           {/* </div> */}
         </div>
-        
+
         <div>
             <a className="Navbar-options" href="#testimonies">Testimonies</a>
         </div>
         <div>
             
-            <a className="Navbar-options" href="animateScrollTo(document.querySelector('.my-element'));">Company</a>
+            <a className="Navbar-options" href="">Company</a>
         </div>
         <div>
             <a className="Navbar-options" href="">Contact</a>

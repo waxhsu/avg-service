@@ -36,7 +36,10 @@
     object-fit: fill;
     mask-image: linear-gradient(to left, rgba(0, 0, 0, 1.0) 60%, transparent 100%);
   }
+  
 }
+
+
 
 
 @media screen and (width: 550px) {
