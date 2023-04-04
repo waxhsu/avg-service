@@ -9,8 +9,36 @@
 .serviceGrid {
   display: flex;
   justify-content: space-around;
+  /* border: 1px goldenrod solid; */
   /* filter: brightness(50%); */
 }
+
+@media (max-width: 1050px) {
+  .serviceGrid {
+    border: 1px goldenrod solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+  h3 {
+    border: 1px red solid;
+    font-size: large;
+  }
+
+  .serviceContainer{
+    border: 1px blue solid;
+    position: relative;
+    width: 45%;
+    max-width: 70%;
+    padding: 0 1vh 5vh 1vh;
+    margin-bottom: 1vh;
+  }
+
+
+}
+
 
 h3 {
   border: 1px red solid;
@@ -29,7 +57,6 @@ h3 {
   max-width: 70%;
   padding: 0 1vh 5vh 1vh;
   margin-bottom: 1vh;
-
 }
 
 
